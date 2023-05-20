@@ -47,7 +47,6 @@ import 'easy-skeleton-loader-vue/styles.css';
 
 ```ts
 <script setup lang="ts">
-import 'easy-skeleton-loader-vue/styles.css'
 import { SkeletonShape } from 'easy-skeleton-loader-vue'
 </script>
 
