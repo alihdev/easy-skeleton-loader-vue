@@ -1,0 +1,69 @@
+{
+  "name": "easy-skeleton-loader-vue",
+  "version": "0.0.1",
+  "description": "A simple, customizable skeleton loader for your vue app",
+  "main": "dist/index.cjs",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./styles.css": "./dist/style.css"
+  },
+  "browser": {
+    "./styles.css": "./dist/style.css"
+  },
+  "types": "dist/skeleton-plugin.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "Apache-2.0",
+  "author": "Ali Hassan <AH> (https://github.com/alihdev)",
+  "homepage": "https://github.com/alihdev/easy-skeleton-loader-vue#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alihdev/easy-skeleton-loader-vue"
+  },
+  "bugs": {
+    "url": "https://github.com/alihdev/easy-skeleton-loader-vue/issues"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "plugin",
+    "loader",
+    "loading",
+    "skeleton-loader",
+    "placeholder",
+    "placeholder-loader",
+    "placeholder-loding",
+    "progressive",
+    "skeleton-ui",
+    "skeleton"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "vue": "^3.3.2"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@tsconfig/node18": "^2.0.1",
+    "@types/node": "^18.16.8",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "@vue/tsconfig": "^0.4.0",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.8.8",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "sass": "^1.62.1",
+    "typescript": "~5.0.4",
+    "vite": "^4.3.5",
+    "vue-tsc": "^1.6.4"
+  }
+}

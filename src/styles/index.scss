@@ -1,0 +1,52 @@
+@import './animation.scss';
+
+:root {
+  --sk-primary-color: #ced4da;
+  --sk-secondary-color: #ffffffa9;
+  --sk-bk-color: #fff;
+}
+
+.sk-loader {
+  &--dark {
+    --sk-primary-color: #ced4da;
+    --sk-secondary-color: #ffffffa9;
+    --sk-bk-color: #3f3f3f;
+    background-color: var(--sk-bk-color);
+  }
+
+  &.skeleton {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    & .element {
+      position: relative;
+      background: var(--sk-primary-color);
+      margin-block-end: 8px;
+      overflow: hidden;
+
+      &.fade-in {
+        animation: fade-in 0.8s ease-in-out backwards infinite alternate;
+      }
+
+      &.wave::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          var(--sk-secondary-color) 50%,
+          transparent 100%
+        );
+        animation: wave-move 1.5s infinite linear;
+      }
+    }
+  }
+
+  &.container {
+    padding: 20px;
+  }
+}
