@@ -1,6 +1,6 @@
 {
   "name": "easy-skeleton-loader-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple, customizable skeleton loader for your vue app",
   "main": "dist/index.cjs",
   "type": "module",
