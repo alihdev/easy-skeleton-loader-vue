@@ -1,3 +1,5 @@
+import './styles/index.scss'
+
 import SkeletonCard from '@/components/SkeletonCard.vue'
 import SkeletonUser from '@/components/SkeletonUser.vue'
 import SkeletonItem from '@/core/SkeletonItem.vue'
