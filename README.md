@@ -32,6 +32,11 @@ Install easy-skeleton-loader-vue with :
  yarn add easy-skeleton-loader-vue
 ```
 
+-  Give a Star 
+
+> Go to the repo [easy-skeleton-loader-vue](https://github.com/alihdev/easy-skeleton-loader-vue). click on the :star: button in the top-right corner of the page.
+
+<br />
 
 ## Usage/Examples
 
@@ -79,6 +84,9 @@ Contributions are always welcome!
 3. Commit your Changes (`git commit -m 'Add some feature description'`)
 4. Push to the Branch (`git push origin feature/FeatureName`)
 5. Open a Pull Request
+
+<br />
+
 ## API
 
 |Prop|Type|Default|Options|Description|
@@ -90,15 +98,7 @@ Contributions are always welcome!
 |radius|number|12||This is used to determine the border radius of the loader|
 |count|number|1||This is used to determine the number of the loader|
 
-
-## How to Give a Star
-
-If you find this useful, please consider giving it a star on GitHub to show your support. 
-
-1. Go to the repo [easy-skeleton-loader-vue](https://github.com/alihdev/easy-skeleton-loader-vue).
-2. Click on the "Star" button in the top-right corner of the page.
-
-Your support is greatly appreciated! :star:
+<br />
 
 ## Authors
 
