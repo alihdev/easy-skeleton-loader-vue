@@ -1,6 +1,8 @@
 
 # easy-skeleton-loader-vue
 
+> Using Vuejs 3 | Typescript
+
 > Loader showing skeleton view while data is being loaded to improve UX.
 
 - easy to used
